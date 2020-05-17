@@ -2,15 +2,15 @@
 
 #include <iostream>
 #include <iomanip>
-#define VERTEX_AMOUNT 10 // количество вершин графа
+#define VERTEX_AMOUNT 10 
 using namespace std;
 
 struct Heap {
-	const int MaxSize = VERTEX_AMOUNT; // максимально возможный размер массива
-	int CurrentSize; // текущий размер массива
-	int* minPath; // массив, содержащий минимальные пути
+	const int MaxSize = VERTEX_AMOUNT; 
+	int CurrentSize; 
+	int* minPath; 
 };
 
-void HeapInit(Heap&); // Инициализация кучи
-void AddHeapElement(Heap&, int); // Добавление в кучу
+void HeapInit(Heap&); 
+void AddHeapElement(Heap&, int); 
 
